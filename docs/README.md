@@ -23,7 +23,7 @@ In addition, this project will include:
 
 This app will consist of a single screen that will cover the entire browser window, regardless of how large or small it is. There will also be a footer with a music player to add to the tranquility of the game. In the top corner, there will be nav links for the About and Options modal. In the About modal, there will be nav links to the Github and my LinkedIn along with a description of the game and the image being recreated. The options modal will include radio buttons for which type of sampling to use, a list of images to recreate, a slider for the radius of the circles, and a reset button to clear the screen. Additionally, an image with a plus will be added to the list of images for the user to recreate an image of their choosing.
 
-![wireframes](https://wireframe.cc/rFCQi7)
+![wireframes](https://github.com/HumzaBaig/simple_geometry/tree/master/docs/wireframes)
 
 ### Architecture and Technologies
 
