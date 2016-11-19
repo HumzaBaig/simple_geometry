@@ -2,7 +2,7 @@
 
 ### Background
 
-Simple Geometry is an example the concept of **sampling**. The game begins with a cleared board, and as soon as the user clicks on the screen, the screen starts getting filled with circles. These circles begin from where the click was made, and continue to spread out almost-evenly until a picture is made. The circles will always only be one color until the image no longer needs the color. The user may click again to begin a new picture.
+Simple Geometry is an example of implementing the concept of **sampling** using [Bridson's Algorithm](http://www-devel.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf) to create a Poisson-Disc. The game begins with a cleared board, and as soon as the user clicks on the screen, the screen starts getting filled with circles, creating a pointillism effect. These circles begin from where the click was made, and continue to spread out almost-evenly until a picture is made. The circles will always only be one color until the image no longer needs the color. The user may click again to begin a new picture.
 
 ### Functionality & MVP
 

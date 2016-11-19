@@ -3,9 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>The Painting That You Love</title>
+    <link rel="stylesheet" href="stylesheet.scss"></link>
   </head>
-  <body>
+  <body style="background-color:black;">
+    <header>
+      <button type="button" id="next-pic" class="button">Next</button>
+      <button type="button" id="reset" class="button">Reset</button>
+      <button type="button" id="previous-pic" class="button">Previous</button>
+    </header>
     <canvas id="canvas"></canvas>
+    <canvas hidden="true" id="painting"></canvas>
     <script type="text/javascript" src="lib/bundle.js" charset="utf-8"></script>
   </body>
 </html>

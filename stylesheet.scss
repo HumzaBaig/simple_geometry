@@ -1,0 +1,14 @@
+header {
+  opacity: 0.2;
+  background-color: gray;
+}
+
+.button {
+  background-color: gray;
+  border: 1px solid white;
+  color: white;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}
