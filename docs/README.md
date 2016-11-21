@@ -15,7 +15,7 @@ With this simulator, users will be able to:
 In addition, this project will include:
 
 -[x] An About modal describing the background of the game
--[ ] A production README
+-[x] A production README
 
 ### Wireframes
 
