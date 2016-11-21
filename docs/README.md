@@ -10,7 +10,7 @@ With this simulator, users will be able to:
 
 -[x] Start and reset the game board
 -[x] Choose an image to recreate
--[ ] Pause and play the background song
+-[x] Pause and play the background song
 
 In addition, this project will include:
 
