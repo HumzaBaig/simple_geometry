@@ -14,7 +14,7 @@ footer {
   height: 40px;
   opacity: 0.5;
   z-index: 2;
-  margin-top: -40px;
+  margin-top: -60px;
 }
 
 .button {
@@ -23,11 +23,11 @@ footer {
   background-color: black;
   border: 1px solid white;
   color: white;
+}
 
-  &:hover {
-    opacity: 0.8;
-    background-color: white;
-  }
+.button:hover {
+  opacity: 0.8;
+  background-color: white;
 }
 
 canvas {
