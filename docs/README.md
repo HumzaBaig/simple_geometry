@@ -2,21 +2,19 @@
 
 ### Background
 
-Simple Geometry is an example of implementing the concept of **sampling** using [Bridson's Algorithm](http://www-devel.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf) to create a Poisson-Disc. The game begins with a cleared board, and as soon as the user clicks on the screen, the screen starts getting filled with circles, creating a pointillism effect. These circles begin from where the click was made, and continue to spread out almost-evenly until a picture is made. The circles will always only be one color until the image no longer needs the color. The user may click again to begin a new picture.
+Simple Geometry is an example of implementing the concept of **sampling** using [Bridson's Algorithm](http://www-devel.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf) to create a Poisson-Disc. The game begins with a cleared board, and as soon as the user clicks on the screen, the screen starts getting filled with circles, creating a pointillism effect. These circles begin from a random spot on the canvas, and continue to spread out almost-evenly until a picture is made. The circles will slowly have a smaller radius as time goes by, creating a clearer and clearer picture. The user may click the next or previous buttons at the top to move through different images.
 
 ### Functionality & MVP
 
 With this simulator, users will be able to:
 
--[ ] Start, pause, and reset the game board
--[ ] Choose an image to recreate
--[ ] Choose the size of the circles (including random)
--[ ] Choose an alternative to the default sampling method
+-[x] Start and reset the game board
+-[x] Choose an image to recreate
+-[ ] Pause and play the background song
 
 In addition, this project will include:
 
--[ ] An About modal describing the background of the game
--[ ] An options modal with which options the game is currently using
+-[x] An About modal describing the background of the game
 -[ ] A production README
 
 ### Wireframes
@@ -41,7 +39,7 @@ This project will be implemented with the following technologies:
 
 **Day 3**: Add default images and have the circles change colors depending on the area they're located on the board.
 
-**Day 4**: Complete all the options for the Options modal. Style the frontend, making it polished and professional.
+**Day 4**: Complete all styling for the frontend, making it polished and professional.
 
 ### Bonus features
 

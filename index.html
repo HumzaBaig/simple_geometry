@@ -7,13 +7,58 @@
   </head>
   <body style="background-color:black;">
     <header>
-      <button type="button" id="next-pic" class="button">Next</button>
-      <button type="button" id="reset" class="button">Reset</button>
       <button type="button" id="previous-pic" class="button">Previous</button>
+      <div class="center">
+        <button type="button" id="about" class="button">About</button>
+        <button type="button" id="reset" class="button">Reset</button>
+      </div>
+      <button type="button" id="next-pic" class="button">Next</button>
     </header>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">x</span>
+          <h2>Simple Geometry</h2>
+        </div>
+        <div class="modal-body">
+          <p>Simple Geometry is an example of implementing the concept of **sampling** using
+            <a class="text-link" href="http://www-devel.cs.ubc.ca/~rbridson/docs/bridson-siggraph07-poissondisk.pdf">
+              Bridson's Algorithm
+            </a> to create a Poisson-Disc.
+            The game begins with a cleared board, and as soon as the user
+            clicks on the screen, the screen starts getting filled with
+            circles, creating a pointillism effect. These circles begin
+            from a random spot on the canvas, and continue to spread out
+            almost-evenly until a picture is made. The circles will slowly
+            have a smaller radius as time goes by, creating a clearer and
+            clearer picture. The user may click the next or previous
+            buttons at the top to move through different images.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <div class="links">
+            <a href="https://github.com/HumzaBaig/simple_geometry">
+              <img src="http://res.cloudinary.com/dzixj0ktk/image/upload/v1479687294/GitHub-Mark-32px_lseq0o.png"/>
+            </a>
+            &nbsp;
+            &nbsp;
+            <a href="www.linkedin.com/in/humza-baig">
+              <img src="http://res.cloudinary.com/dzixj0ktk/image/upload/v1479687554/In-Black-34px-R_lff6at.png"/>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
     <canvas id="canvas"></canvas>
     <canvas hidden="true" id="painting"></canvas>
-    <audio src="http://res.cloudinary.com/dzixj0ktk/video/upload/v1479622034/Faithful_-_KHAWAJA_y9ujah.wav">
+    <footer>
+      <button id="playMusic" class="button">Play</button>
+      <button id="pauseMusic" class="button">Pause</button>
+    </footer>
+    <audio id="music"
+           autoplay="true"
+           loop="true"
+           src="http://res.cloudinary.com/dzixj0ktk/video/upload/v1479622034/Faithful_-_KHAWAJA_y9ujah.wav">
     </audio>
     <script type="text/javascript" src="lib/bundle.js" charset="utf-8"></script>
   </body>
