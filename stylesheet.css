@@ -1,16 +1,33 @@
+@font-face {
+    font-family: 'moderne_sansregular';
+    src: url('./webfontkit/moderne_sans-webfont.woff2') format('woff2'),
+         url('./webfontkit/moderne_sans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
+  font-family: 'moderne_sansregular';
   margin: 0;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 header {
   display: flex;
   justify-content: space-between;
+  padding-left: 1em;
+  padding-right: 1em;
   height: 40px;
   opacity: 0.5;
   z-index: 2;
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
   height: 40px;
   opacity: 0.5;
   z-index: 2;
@@ -19,25 +36,40 @@ footer {
 
 .button {
   width: 10em;
+  margin-top: 1em;
   height:100%;
   background-color: black;
-  border: 1px solid white;
+  border: 2px solid white;
+  border-radius: 1.2em;
   color: white;
 }
 
 .button:hover {
   opacity: 0.8;
-  background-color: white;
+  transform: scale(1.1);
+}
+
+span {
+  font-family: 'moderne_sansregular';
+  font-size: 17px;
+}
+
+span.arrow {
+  font-size: 20px;
 }
 
 canvas {
-  margin-top: -40px;
+  margin-top: -45px;
   z-index: 1;
 }
 
 .text-link {
   text-decoration: none;
   color: #2460c1;
+}
+
+button:focus {
+  outline: none;
 }
 
 .modal {
@@ -58,8 +90,10 @@ canvas {
     background-color: gray;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
+    padding-top: 10px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 45%; /* Could be more or less, depending on screen size */
+    border-radius: 1em;
 }
 
 /* The Close Button */
