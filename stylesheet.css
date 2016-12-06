@@ -51,7 +51,11 @@ footer {
 
 span {
   font-family: 'moderne_sansregular';
-  font-size: 17px;
+  font-size: 15px;
+}
+
+#fastest {
+  transform: translateY(-5px);
 }
 
 span.arrow {
