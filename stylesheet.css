@@ -25,6 +25,11 @@ header {
   z-index: 2;
 }
 
+center {
+  width: 100%;
+  height: 100%;
+}
+
 footer {
   display: flex;
   justify-content: space-between;
@@ -36,8 +41,8 @@ footer {
 
 .button {
   width: 10em;
-  margin-top: 1em;
   height:100%;
+  margin-top: 1em;
   background-color: black;
   border: 2px solid white;
   border-radius: 1.2em;
@@ -53,7 +58,6 @@ span {
   font-family: 'moderne_sansregular';
   font-size: 15px;
 }
-
 
 span.arrow {
   font-size: 20px;
