@@ -1,4 +1,4 @@
-node_module/
+node_modules/
 .DS_Store
-package.json
-webpack.config.js
+lib/bundle.js
+lib/bundle.js.map

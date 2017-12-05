@@ -9,6 +9,8 @@
 body {
   font-family: 'moderne_sansregular';
   margin: 0;
+
+  position: relative;
 }
 
 h2 {
@@ -33,6 +35,8 @@ center {
 footer {
   display: flex;
   justify-content: space-between;
+  padding-left: 1em;
+  padding-right: 1em;
   height: 40px;
   opacity: 0.5;
   z-index: 2;
@@ -43,6 +47,7 @@ footer {
   width: 10em;
   height:100%;
   margin-top: 1em;
+  margin-bottom: 1em;
   background-color: black;
   border: 2px solid white;
   border-radius: 1.2em;
